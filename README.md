@@ -1,6 +1,10 @@
 # Market
 Market
 
+plotyly Documentation
+
+https://plotly.com/python/candlestick-charts/
+
 Adding a Column in Dataframe
 df['new_col'] = range(1, len(df) + 1)
 
@@ -16,7 +20,6 @@ from_date=to_date-dr.relativedelta(days=365)
 print(from_date,to_date)
 tradingsymbol='TITAN'
 data=gh(tradingsymbol,from_date,to_date)
-
 
 
 
